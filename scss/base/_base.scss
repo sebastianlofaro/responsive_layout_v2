@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: none;
+}
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    &:link,
+    &:visited {
+        color: black;
+    }
+
+    &:hover {
+        color: #52BAB4;
+    }
+
+}

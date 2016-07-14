@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Varela Round', sans-serif;
+  text-decoration: none; }
+
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both; }
+
+ul {
+  list-style: none; }
+
+a:link, a:visited {
+  color: black; }
+a:hover {
+  color: #52BAB4; }
+
+.wrapper {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto; }
+
+.wrapper section,
+.wrapper section img {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto; }
+
+.wrapper section p {
+  width: 80%;
+  margin: 0 auto; }
+
+#portfolio {
+  margin-top: 40px; }
+
+footer {
+  background: #f8f8f8;
+  text-align: center; }
+
+#b-name {
+  float: left; }
+
+#b-btt {
+  float: right; }
+
+.bottom {
+  margin: 0 auto;
+  width: 90%;
+  border-top: 2px solid #eee; }
+
+#bottom-nav {
+  display: none; }
+
+#contact {
+  padding-top: 55px;
+  padding-bottom: 30px; }
+
+#contact-message {
+  margin: 0 auto;
+  padding-bottom: 40px;
+  max-width: 480px; }
+
+#email {
+  padding-bottom: 60px; }
+
+.top-name {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 20px; }
+
+header {
+  background: #f8f8f8; }
+
+.main-nav {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 30px; }
+
+.main-nav h2 {
+  display: inline-block;
+  width: 90%;
+  background: white;
+  padding: 10px 0;
+  text-align: center;
+  margin: 3px 0; }
+  @media (min-width: 768px) {
+    .main-nav h2 {
+      background: none; } }
+
+.profile-pic {
+  display: block;
+  width: 70%;
+  margin: auto; }
+  @media (min-width: 768px) {
+    .profile-pic {
+      display: inline-block;
+      width: 30%;
+      float: right;
+      margin-right: 25px;
+      margin-bottom: 50px; } }
+
+#intro-text {
+  text-align: center;
+  display: block;
+  padding: 30px 10px; }
+  @media (min-width: 768px) {
+    #intro-text {
+      text-align: left;
+      display: inline-block;
+      width: 60%;
+      float: left;
+      margin-left: 25px;
+      vertical-align: top;
+      margin-top: 0;
+      padding-top: 0; } }
+
+.main-nav {
+  width: 100%; }
+
+.main-nav ul {
+  padding: 0; }
+  @media (min-width: 768px) {
+    .main-nav ul {
+      display: inline-block;
+      margin: 0 20px; } }
+
+/*# sourceMappingURL=application.css.map */

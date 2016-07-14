@@ -1,0 +1,100 @@
+/*************************   General Styles   ***************************/
+
+
+/*************************   Header   ***************************/
+
+
+/*************************   Main Body   ***************************/
+
+
+/*************************   Footer   ***************************/
+
+
+/*************************   Media Queries   ***************************/
+
+@media (min-width: 768px) {
+    .main-nav li {
+        display: inline-block;
+        margin: 0 20px;
+    }
+    .main-nav h2 {
+        background: none;
+    }
+    #intro-text {
+        text-align: left;
+        display: inline-block;
+        width: 60%;
+        float: left;
+        margin-left: 25px;
+        vertical-align: top;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .profile-pic {
+        display: inline-block;
+        width: 30%;
+        float: right;
+        margin-right: 25px;
+        margin-bottom: 50px;
+    }
+    .wrapper section {
+        vertical-align: top;
+        display: inline-block;
+        width: 49%;
+        padding: 0 7px;
+        margin: 20px 0;
+        float: inherit;
+    }
+    #b-btt {
+        display: none;
+    }
+    #bottom-nav {
+        display: inline-block;
+        float: right;
+    }
+    #bottom-nav ul {
+        list-style: none;
+        display: inline-block;
+    }
+    #bottom-nav ul li {
+        display: inline-block;
+        margin-left: 30px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .wrapper section {
+        width: 32%;
+    }
+    .top-name {
+        float: left;
+        margin: 20px 0 0 35px;
+    }
+    .main-nav {
+        float: right;
+        display: inline-block;
+        width: auto;
+        margin-top: 40px;
+        margin-right: 23px;
+    }
+    .profile-pic {
+        margin-right: 35px;
+    }
+    .main-nav h2,
+    .main-nav ul {
+        margin: 0;
+        padding: 0;
+    }
+    .main-nav ul {
+        display: inline-block;
+    }
+    .main-nav ul li {
+        display: inline-block;
+    }
+    .wrapper,
+    .header-wrapper,
+    .footer-wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}

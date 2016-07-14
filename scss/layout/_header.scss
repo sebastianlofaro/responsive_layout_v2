@@ -1,0 +1,68 @@
+.top-name {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+header {
+    background: #f8f8f8;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.main-nav h2 {
+    display: inline-block;
+    width: 90%;
+    background: white;
+    padding: 10px 0;
+    text-align: center;
+    margin: 3px 0;
+    @include tablet {
+        background: none;
+    }
+}
+
+.profile-pic {
+    display: block;
+    width: 70%;
+    margin: auto;
+    @include tablet {
+        display: inline-block;
+        width: 30%;
+        float: right;
+        margin-right: 25px;
+        margin-bottom: 50px;
+    }
+}
+
+#intro-text {
+    text-align: center;
+    display: block;
+    padding: 30px 10px;
+    @include tablet {
+        text-align: left;
+        display: inline-block;
+        width: 60%;
+        float: left;
+        margin-left: 25px;
+        vertical-align: top;
+        margin-top: 0;
+        padding-top: 0;
+    }
+}
+
+.main-nav {
+    width: 100%;
+}
+
+.main-nav ul {
+    padding: 0;
+    @include tablet {
+        display: inline-block;
+        margin: 0 20px;
+    }
+}

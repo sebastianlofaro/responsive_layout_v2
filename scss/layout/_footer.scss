@@ -1,0 +1,38 @@
+footer {
+    background: #f8f8f8;
+    text-align: center;
+}
+
+#b-name {
+    float: left;
+}
+
+#b-btt {
+    float: right;
+    @include tablet
+}
+
+.bottom {
+    margin: 0 auto;
+    width: 90%;
+    border-top: 2px solid #eee;
+}
+
+#bottom-nav {
+    display: none;
+}
+
+#contact {
+    padding-top: 55px;
+    padding-bottom: 30px;
+}
+
+#contact-message {
+    margin: 0 auto;
+    padding-bottom: 40px;
+    max-width: 480px;
+}
+
+#email {
+    padding-bottom: 60px;
+}
